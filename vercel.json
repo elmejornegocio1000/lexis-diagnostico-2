@@ -1,5 +1,5 @@
 {
   "buildCommand": "vite build",
-  "installCommand": "corepack enable && corepack prepare pnpm@10.11.0 --activate && pnpm install",
+  "installCommand": "pnpm install --no-frozen-lockfile",
   "outputDirectory": "dist"
 }
